@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 855px;
+	font-size: 100%;
+	background: lavenderblush;
+	font-family: sans-serif;
+
+}
+header{
+	overflow: auto;
+	border-bottom: 5px solid darkslategray;
+}
+h1{
+	float: left;
+}
+header p{
+	float: right;
+	width: 570px;
+	margin-top: 10px;
+	font-style: italic;
+}
+main{
+	overflow: auto;
+	border-bottom: 5px solid darkslategray;
+}
+section.comment-input{
+	float: left;
+	width: 280px;
+}
+.comment-input p{
+	margin-bottom: 10px;
+}
+.comment-input input{
+	font-weight: bold;
+}
+section.comments{
+	float: right;
+	width: 550px;
+}
