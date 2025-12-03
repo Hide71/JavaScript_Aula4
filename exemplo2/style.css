@@ -4,6 +4,7 @@
 }
 body{
 	width: 855px;
+	margin: auto;
 	font-size: 100%;
 	background: lavenderblush;
 	font-family: sans-serif;
@@ -24,19 +25,45 @@ header p{
 }
 main{
 	overflow: auto;
+	padding: 30px 0;
 	border-bottom: 5px solid darkslategray;
 }
 section.comment-input{
 	float: left;
-	width: 280px;
+	width: 285px;
 }
 .comment-input p{
 	margin-bottom: 10px;
 }
 .comment-input input{
 	font-weight: bold;
+	width: 80%;
+	height: 30px;
+	font-size: 1.2em;
+}
+.comment-input button{
+	font-weight: bold;
+	padding: 3px;
+	border-radius: 5px;
+	color: ivory;
+	background: olivedrab;
+	cursor: pointer;
+	 font-size: 1.5em;
+     margin-left: 5px;
+
 }
 section.comments{
 	float: right;
-	width: 550px;
+	width: 570px;
+}
+.comments p {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.comments p:nth-child(even) {
+    background: lavender;
+}
+.comments p:nth-child(odd) {
+    background: gainsboro;
 }
