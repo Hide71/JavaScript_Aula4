@@ -28,7 +28,7 @@ main{
 	padding: 30px 0;
 	border-bottom: 5px solid darkslategray;
 }
-section.comment-input{
+.comment-input{
 	float: left;
 	width: 285px;
 }
@@ -52,7 +52,7 @@ section.comment-input{
      margin-left: 5px;
 
 }
-section.comments{
+.comments{
 	float: right;
 	width: 570px;
 }
